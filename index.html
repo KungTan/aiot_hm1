@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Kung | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glow-orb"></div>
+    <div class="glow-orb orb-2"></div>
+    
+    <nav class="navbar">
+        <div class="logo">AK.</div>
+        <div class="currentTimeContainer" id="navTime">--:--</div>
+    </nav>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h2 class="subtitle fade-in-up" style="animation-delay: 0.1s;">Creative Developer & Designer</h2>
+            <h1 class="title fade-in-up" style="animation-delay: 0.3s;">
+                Hi, I'm <br>
+                <span class="highlight">Andre Kung</span>
+            </h1>
+            
+            <div class="time-widget fade-in-up" style="animation-delay: 0.5s;">
+                <p class="time-label">Current Local Time</p>
+                <div class="time-display" id="mainTime">Loading...</div>
+                <div class="date-display" id="mainDate">--</div>
+            </div>
+
+            <a href="#about" class="cta-button fade-in-up" style="animation-delay: 0.7s;">Explore My Work</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
