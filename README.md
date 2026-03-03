@@ -1,29 +1,29 @@
-# Personal Portfolio Webpage
+# Project Summary - March 03, 2026
 
-A modern, single-page personal portfolio website created for Andre Kung, inspired by the high-contrast, sleek aesthetic of Hostinger's "Adelina" template.
+## Overview
+Today, we developed and deployed a modern, premium personal webpage for **Andre Kung**. The project involved creating a high-quality frontend styled after Hostinger's "Adelina" template, and setting up a basic version control workflow with GitHub.
 
-## Features Design
+**Live Demo:** [https://KungTan.github.io/aiot_hm1/](https://KungTan.github.io/aiot_hm1/)
 
-- **Modern Visuals**: Dark theme with vibrant glassmorphic purple glowing orbs for a premium look.
-- **Dynamic Time Widget**: A prominent, real-time local clock and date widget built with JavaScript that updates every second.
-- **Responsive Layout**: Adapts cleanly across desktop and mobile devices.
-- **Smooth Animations**: Elegant fade-up loading animations for all hero elements to provide a professional user experience.
-- **Typography**: Uses modern sans-serif fonts (`Outfit` and `Inter`) for clean and striking readability.
+## Completed Tasks
 
-## Technologies Used
+### 1. Web Development
+- **Main Interface (`index.html`)**: Built a sleek, single-page layout featuring a dynamic greeting, a current time display widget, and a professional hero section.
+- **Styling (`style.css`)**: Implemented a "Glassmorphism" design system using CSS variables, smooth purple gradients, glowing orbs, and micro-animations for a premium, high-contrast look and feel.
+- **Dynamic Features (`script.js`)**: Added JavaScript to handle real-time clock and date updates that refresh every second.
 
-- **HTML5**: Structured content.
-- **CSS3**: Layout, styling (variables, flexbox, glassmorphism), and keyframe animations.
-- **JavaScript (Vanilla)**: Real-time clock logic using `Intl.DateTimeFormat`.
+### 2. Git & GitHub Integration
+- **Local Initialization**: Initialized a new Git repository in the local directory.
+- **Identity Configuration**: Configured the local Git settings to correctly reflect the author identity (**KungTan**) to map perfectly with GitHub.
+- **Successful Deployment**: Pushed the entire codebase to the remote repository: [https://github.com/KungTan/aiot_hm1.git](https://github.com/KungTan/aiot_hm1.git).
 
 ## File Structure
-
-- `index.html`: Main markup file.
-- `style.css`: Stylesheet containing custom properties, animations, and responsive rules.
+- `index.html`: Core structure and content.
+- `style.css`: Visual design, colors, and animations.
 - `script.js`: Logic for updating the dynamic time displays.
+- `README.md`: This project documentation.
 
-## How to Run Locally
-
-You can run this project simply by opening the `index.html` file in any modern web browser.
-
-Alternatively, if you are using VS Code, you can use extensions like **Live Server** or **Live Preview** to host it locally and develop with live-reloading.
+## Future Recommendations
+- Add more personal project showcases to the 'Explore My Work' section.
+- Integrate a contact form or social media links.
+- Turn on GitHub Pages in the repository settings to activate the Live Demo site for public access.
