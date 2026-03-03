@@ -1,7 +1,7 @@
 # Project Summary - March 03, 2026
 
 ## Overview
-Today, we developed and deployed a modern, premium personal webpage for **Andre Kung**. The project involved creating a high-quality frontend styled after Hostinger's "Adelina" template, and setting up a basic version control workflow with GitHub.
+Today, we developed and deployed a modern, premium personal webpage for **YuTang Kung**. The project involved creating a high-quality frontend styled after Hostinger's "Adelina" template, and setting up a basic version control workflow with GitHub.
 
 **Live Demo:** [https://KungTan.github.io/aiot_hm1/](https://KungTan.github.io/aiot_hm1/)
 
